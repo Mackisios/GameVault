@@ -42,16 +42,20 @@ A stunning, fully responsive gaming dashboard built with **pure HTML & CSS** —
 
 ```
 GameVault/
-├── css/
-│   └── styles.css
-├── screenshots/
-│   ├── dashboard.png
-│   ├── browse.png      
-│   └── community.png
-├── index.html  
-├── browse.html  
-├── community.html 
-└── README.md
+│
+├── 📂 css/
+│   └── 📄 styles.css           # All styles, animations & responsive design
+│
+├── 📂 screenshots/
+│   ├── 🖼️ dashboard.png        # Dashboard page preview
+│   ├── 🖼️ browse.png           # Browse page preview
+│   └── 🖼️ community.png        # Community page preview
+│
+├── 📄 index.html               # Dashboard — hero, trending, stats, timeline
+├── 📄 browse.html              # Browse — filters, game grid, pagination
+├── 📄 community.html           # Community — posts, leaderboard, events
+│
+└── 📄 README.md                # You are here!
 ```
 
 ## 🚀 Getting Started
