@@ -57,10 +57,10 @@ GameVault/
 
 ## 📱 Responsive Breakpoints
 
-Desktop: 1024px+
-Tablet: 768px - 1024px
-Mobile: 480px - 768px
-Small Mobile: < 480px
+- Desktop: 1024px+
+- Tablet: 768px - 1024px
+- Mobile: 480px - 768px
+- Small Mobile: < 480px
 
 ## 🎨 Design Highlights
 
