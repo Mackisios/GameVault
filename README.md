@@ -119,11 +119,12 @@ GameVault/
 
 ## 📄 License
 
-MIT License - feel free to use this in your portofolio!
+- MIT License - feel free to use this in your portofolio!
 
 ## 👤 Author
-Anastasis (Mack) Makridis
-GitHub: mackisios
-LinkedIn: mackisios
+
+- Anastasis (Mack) Makridis
+- GitHub: mackisios
+- LinkedIn: mackisios
 
 ## ⭐ If you found this useful, consider giving it a star!
