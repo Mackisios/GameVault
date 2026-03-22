@@ -64,23 +64,23 @@ GameVault/
 
 ## 🎨 Design Highlights
 
-Dark theme with purple/blue accent gradients
-Glassmorphism navigation bar
-Card-based UI with hover animations
-Emoji-based icons (no external icon library needed)
-CSS-only bar chart visualization
-Animated progress bars and level systems
+- Dark theme with purple/blue accent gradients
+- Glassmorphism navigation bar
+- Card-based UI with hover animations
+- Emoji-based icons (no external icon library needed)
+- CSS-only bar chart visualization
+- Animated progress bars and level systems
 
 ##  Skills Demonstrated
 
-Advanced CSS Grid & Flexbox layouts
-CSS Custom Properties (theming)
-CSS animations & transitions
-Responsive design patterns
-BEM-imspired naming conventions
-Accessbility best practices
-Complex component design without JavaScript
-Perfomance optimaztion (no JS = faster load)
+- Advanced CSS Grid & Flexbox layouts
+- CSS Custom Properties (theming)
+- CSS animations & transitions
+- Responsive design patterns
+- BEM-imspired naming conventions
+- Accessbility best practices
+- Complex component design without JavaScript
+- Perfomance optimaztion (no JS = faster load)
 
 ## 📸 Screenshots
 
@@ -109,13 +109,13 @@ Perfomance optimaztion (no JS = faster load)
 
 ## 🔮 Future Improvements
 
-Add JavaScript for real interactivity
-Dark/Light theme toggle
-Connect to a real game API (IGDB, RAWG)
-Add user authentication
-Convert to Reach component library
-Add game detail pages
-Implement real search functionality
+- Add JavaScript for real interactivity
+- Dark/Light theme toggle
+- Connect to a real game API (IGDB, RAWG)
+- Add user authentication
+- Convert to Reach component library
+- Add game detail pages
+- Implement real search functionality
 
 ## 📄 License
 
