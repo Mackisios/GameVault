@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameVault — Your Gaming Universe</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Orbitron:wght@400;500;600;700;800;900&display=swap">
+</head>
+
+<body>
+
+    <!-- LOADER -->
+     <div class="loader" id="loader">
+        <div class="loader-content">
+            <div class="loader-logo">
+                <span class="loader-icon">🎮</span>
+                <div class="loader-bar">
+                    <div class="loader-progress"></div>
+                </div>
+                <p class="loader-text">Loading GameVault...</p>
+            </div>
+        </div>
+     </div>
+
+     <!-- NAVIGATION -->
+      <nav class="navbar">
+        <div class="nav-container">
+
+            <a href="index.html" class="nav-logo">
+                <span class="logo-icon">🎮</span>
+                <span class="logo-text">Game<span class="logo-accent">Vault</span></span>
+            </a>
+
+            <input type="checkbox" id="nav-toggle" class="nav-toggle-checkbox">
+            <label for="nav-toggle" class="nav-toggle-label">
+                <span class="hamburger"></span>
+            </label>
+
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link active">Dashboard</a></li>
+                <li><a href="browse.html" class="nav-link">Browse</a></li>
+                <li><a href="community.html" class="nav-link">Community</a></li>
+                <li class="nav-search">
+                    <input type="text" placeholder="Search games..." class="search-input">
+                    <span class="search-icon">🔍</span>
+                </li>
+                <li>
+                    <a href="#" class="nav-profile">
+                        <div class="profile-avatar">
+                            <span>M</span>
+                            <span class="online-dot"></span>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+      </nav>
+
+      <!-- HERO SECTION -->
+       <header class="hero">
+
+            <div class="hero-bg-effects">
+                <div class="floating-shape shape-1"></div>
+                <div class="floating-shape shape-2"></div>
+                <div class="floating-shape shape-3"></div>
+                <div class="floating-shape shape-4"></div>
+                <div class="grid-overlay"></div>
+            </div>
+
+            <div class="hero-container">
+                <div class="hero-content">
+
+                    <div class="hero-badge">
+                        <span class="badge-dot"></span>
+                        Season 12 is Live
+                    </div>
+                    <h1 class="hero-title">
+                        Discover Your Next
+                        <span class="gradient-text">Epic Adventure</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        Track your games, connect with players, and explore a universe of interactive entertainment. Your gaming journey starts here.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="browse.html" class="btn btn-primary">
+                            <span>Explore Games</span>
+                            <span class="btn-arrow">→</span>
+                        </a>
+                        <a href="community.html" class="btn btn-secondary">
+                            <span>Join Community</span>
+                        </a>
+                    </div>
+                    
+                    <div class="hero-stats">
+                        <div class="hero-stat">
+                            <span class="stat-number">2.4M+</span>
+                            <span class="stat-label">Active Players</span>
+                        </div>
+                        <div class="hero-stat-divider"></div>
+                        <div class="hero-stat">
+                            <span class="stat-number">15K+</span>
+                            <span class="stat-label">Games Listed</span>
+                        </div>
+                        <div class="hero-stat-divider"></div>
+                        <div class="hero-stat">
+                            <span class="stat-number">>98%</span>
+                            <span class="stat-label">Satisfaction</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-visual">
+                    <div class="hero-card-stack">
+
+                        <div class="hero-game-card card-back-2">
+                            <div class="hgc-image" style="background: linear-gradient(135deg, #1a1a2e, #16213e);">
+                                <span class="hgc-emoji">🏰</span>
+                            </div>
+                        </div>
+                        <div class="hero-game-card card-back-1">
+                            <div class="hgc-image" style="background: linear-gradient(135deg, #0f3460, #533483);">
+                                <span class="hgc-emoji">⚔️</span>
+                            </div>
+                        </div>
+                        <div class="hero-game-card card-front">
+                            <div class="hgc-image" style="background: linear-gradient(135deg, #e94560, #533483)">
+                                <span class="hgc-emoji">🚀</span>
+                            </div>
+                            <div class="hgc-info">
+                                <h3>Stellar Odyssey</h3>
+                                <div class="hgc-meta">
+                                    <span class="hgc-rating">⭐ 4.9</span>
+                                    <span class="hgc-genre">Sci-FI RPG</span>
+                                </div>
+                                <div class="hgc-tags">
+                                    <span class="hgc-tag">Multiplayer</span>
+                                    <span class="hgc-tag">Open World</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </header> 
+
+       <!-- TRENDING SECTION -->
+        <section class="section trending-section">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-title-group">
+                        <span class="section-tag">🔥 Hot Right Now</span>
+                        <h2 class="section-title">Trending Games</h2>
+                    </div>
+                    <a href="browse.html" class="section-link">
+                        View All <span>→</span>
+                    </a>
+                </div>
+
+                <div class="trending-grid">
+                    <!-- Card 1 -->
+                    <article class="game-card featured-card">
+
+                        <div class="game-card-image" style="background: linear-gradient(135deg, #667eea, #764ba2);">
+                            <span class="game-emoji">🐉</span>
+                            <div class="card-overlay">
+                                <span class="card-badge badge-new">NEW</span>
+                                <div class="card-actions">
+                                    <button class="card-action-btn">🤍</button>
+                                    <button class="card-action-btn">🔖</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="game-card-body">
+                            <div class="game-card-top">
+                                <span class="game-platform">PC / PS5 / Xbox</span>
+                                <span class="game-rating">⭐ 4.8</span>
+                            </div>
+                            <h3 class="game-title">Dragon's Dominion</h3>
+                            <p class="game-desc">Command legendary dragons in this epic fantasy MMORPG with breathtaking open-world exploration.</p>
+                            <div class="game-card-footer">
+                                <div class="game-tags">
+                                    <span class="tag">RPG</span>
+                                    <span class="tag">Fantasy</span>
+                                    <span class="tag">MMO</span>
+                                </div>
+                            </div>
+                            <span class="game-price">$59.99</span>
+                            <div class="game-progress-section">
+                                <div class="progress-header">
+                                    <span>Hype Meter</span>
+                                    <span>92%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="--progress: 92%"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </article>
+
+                    <!-- Card 2 -->
+                     <article class="game-card">
+
+                        <div class="game-card-image" style="background: linear-gradient(135deg, #f093fb, #f5576c);">
+                            <span class="game-emoji">🏎️</span>
+                            <div class="card-overlay">
+                                <span class="card-badge badge-popular">POPULAR</span>
+                                <div class="card-actions">
+                                    <button class="card-action-btn">🤍</button>
+                                    <button class="card-action-btn">🔖</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="game-card-body">
+                            <div class="game-card-top">
+                                <span class="game-platform">All Platforms</span>
+                                <span class="game-rating">⭐ 4.6</span>
+                            </div>
+                            <h3 class="game-title">Velocity Rush</h3>
+                            <p class="game-desc">High-octane racing through neon-lit cyberpunk cities at breakneck speeds.</p>
+                            <div class="game-card-footer">
+                                <div class="game-tags">
+                                    <span class="tag">Racing</span>
+                                    <span class="tag">Arcade</span>
+                                </div>
+                            </div>
+                            <span class="game-price">$49.99</span>
+                            <div class="game-progress-section">
+                                <div class="progress-header">
+                                    <span>Hype Meter</span>
+                                    <span>87%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="--progress: 87%"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                     </article>
+
+                      <!-- Card 3 -->
+                     <article class="game-card">
+
+                        <div class="game-card-image" style="background: linear-gradient(135deg, #4facfe, #00f2fe);">
+                            <span class="game-emoji">🌊</span>
+                            <div class="card-overlay">
+                                <span class="card-badge badge-trending">TRENDING</span>
+                                <div class="card-actions">
+                                    <button class="card-action-btn">🤍</button>
+                                    <button class="card-action-btn">🔖</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="game-card-body">
+                            <div class="game-card-top">
+                                <span class="game-platform">PC / PS5</span>
+                                <span class="game-rating">⭐ 4.7</span>
+                            </div>
+                            <h3 class="game-title">Ocean Depths</h3>
+                            <p class="game-desc">Explore the mysteries of the deep sea in this stunning survival adventure.</p>
+                            <div class="game-card-footer">
+                                <div class="game-tags">
+                                    <span class="tag">Survival</span>
+                                    <span class="tag">Adventure</span>
+                                </div>
+                                <span class="game-price">$39.99</span>
+                            </div>
+                            <div class="game-progress-section">
+                                <div class="progress-header">
+                                    <span>Hype Meter</span>
+                                    <span>78%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="--progress: 78%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                     </article>
+
+                      <!-- Card 4 -->
+                     <article class="game-card">
+
+                        <div class="game-card-image" style="background: linear-gradient(135deg, #a18cd1, #fbc2eb);">
+                            <span class="game-emoji">🧙</span>
+                            <div class="card-overlay">
+                                <span class="card-badge badge-sale">-30%</span>
+                                <div class="card-actions">
+                                    <button class="card-action-btn">🤍</button>
+                                    <button class="card-action-btn">🔖</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="game-card-body">
+                            <div class="game-card-top">
+                                <span class="game-platform">PC / Switch</span>
+                                <span class="game-rating">⭐ 4.5</span>
+                            </div>
+                            <h3 class="game-title">Arcane Academy</h3>
+                            <p class="game-desc">Master ancient spells and uncover dark secrets in a magical university.</p>
+                            <div class="game-card-footer">
+                                <div class="game-tags">
+                                    <span class="tag">Strategy</span>
+                                    <span class="tag">Magic</span>
+                                </div>
+                                <span class="game-price"><s>$49.99</s> $34.99</span>
+                            </div>
+                            <div class="game-progress-section">
+                                <div class="progress-header">
+                                    <span>Hype Meter</span>
+                                    <span>65%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="--progress: 65%"></div>
+                                </div>
+                            </div>
+                        </div>
+                     </article>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- STATS DASHBOARD -->
+         <section class="section stats-section">
+            <div class="container">
+
+                <div class="section-header">
+                    <div class="section-title-group">
+                        <span class="section-tag">📊 Your Stats</span>
+                        <h2 class="section-title">Player Dashboard</h2>
+                    </div>
+                </div>
+
+                <div class="dashboard-grid">
+                    <div class="dash-card dash-profile">
+                        <div class="dash-profile-header">
+                            <div class="dash-avatar">
+                                <span>M</span>
+                                <div class="avatar-ring"></div>
+                            </div>
+                            <div class="dash-profile-info">
+                                <h3>Mack</h3>
+                                <span class="dash-rank">
+                                    <span class="rank-icon">💎</span>
+                                     Diamond Rank
+                                </span>
+                            </div>
+                        </div>
+                        <div class="dash-level">
+                            <div class="level-header">
+                                <span>Level 42</span>
+                                <span>12,450 / 15,000</span>
+                            </div>
+                            <div class="progress-bar level-bar">
+                                <div class="progress-fill" style="--progress: 83%"></div>
+                            </div>
+                        </div>
+                        <div class="dash-achievements">
+                            <h4>Recent Achievements</h4>
+                            <div class="achievement-list">
+                                <div class="achievement">
+                                    <span class="achievement-icon">🏆</span>
+                                    <div class="achievement-info">
+                                        <span class="achievement-name">First Blood</span>
+                                        <span class="achievement-desc">Win your first match</span>
+                                    </div>
+                                </div>
+                                <div class="achievement">
+                                    <span class="achievement-icon">⚡</span>
+                                    <div class="achievement-info">
+                                        <span class="achievement-name">Speed Demon</span>
+                                        <span class="achievement-desc">Complete a race under 2 min</span>
+                                    </div>
+                                </div>
+                                <div class="achievement">
+                                    <span class="achievement-icon">🎯</span>
+                                    <div class="achievement-info">
+                                        <span class="achievement-name">Sharpshooter</span>
+                                        <span class="achievement-desc">100 headshots in a row</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="dash-stats-grid">
+                        <div class="stat-card">
+                            <div class="stat-icon" style="background: linear-gradient(135deg, #667eea, #764ba2);">🎮</div>
+                            <div class="stat-info">
+                                <span class="stat-value">247</span>
+                                <span class="stat-name">Games Played</span>
+                            </div>
+                            <span class="stat-trend trend-up">↑ 12%</span>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon" style="background: linear-gradient(135deg, #667eea, #764ba2);">⏱️</div>
+                            <div class="stat-info">
+                                <span class="stat-value">1,832h</span>
+                                <span class="stat-name">Total Playtime</span>
+                            </div>
+                            <span class="stat-trend trend-up">↑ 8%</span>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon" style="background: linear-gradient(135deg, #667eea, #764ba2);">🏅</div>
+                            <div class="stat-info">
+                                <span class="stat-value">89</span>
+                                <span class="stat-name">Achievements</span>
+                            </div>
+                            <span class="stat-trend trend-up">↑ 24%</span>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon" style="background: linear-gradient(135deg, #667eea, #764ba2);">👥</div>
+                            <div class="stat-info">
+                                <span class="stat-value">156</span>
+                                <span class="stat-name">Friends Online</span>
+                            </div>
+                            <span class="stat-trend trend-down">↓ 3%</span>
+                        </div>
+                    </div>
+
+                    <div class="dash-card dash-activity">
+                        <h3>Weekly Activity</h3>
+                        <div class="activity-chart">
+                            <div class="chart-bar-group">
+                                <div class="chart-bar" style="--height: 40%">
+                                    <div class="bar-fill"></div>
+                                </div>
+                                <span class="bar-label">Mon</span>
+                            </div>
+                            <div class="chart-bar-group">
+                                <div class="chart-bar" style="--height: 65%">
+                                    <div class="bar-fill"></div>
+                                </div>
+                                <span class="bar-label">Tue</span>
+                            </div>
+                            <div class="chart-bar-group">
+                                <div class="chart-bar" style="--height: 85%">
+                                    <div class="bar-fill"></div>
+                                </div>
+                                <span class="bar-label">Wed</span>
+                            </div>
+                            <div class="chart-bar-group">
+                                <div class="chart-bar" style="--height: 50%">
+                                    <div class="bar-fill"></div>
+                                </div>
+                                <span class="bar-label">Thu</span>
+                            </div>
+                            <div class="chart-bar-group">
+                                <div class="chart-bar" style="--height: 75%">
+                                    <div class="bar-fill"></div>
+                                </div>
+                                <span class="bar-label">Fri</span>
+                            </div>
+                            <div class="chart-bar-group">
+                                <div class="chart-bar" style="--height: 95%">
+                                    <div class="bar-fill"></div>
+                                </div>
+                                <span class="bar-label">Sat</span>
+                            </div>
+                            <div class="chart-bar-group">
+                                <div class="chart-bar" style="--height: 70%">
+                                    <div class="bar-fill"></div>
+                                </div>
+                                <span class="bar-label">Sun</span>
+                            </div>
+                        </div>
+                        <div class="activity-legend">
+                            <span class="legend-item">
+                                <span class="legend-dot" style="background: #667eea;"></span>
+                                Hours Played
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </section>
+
+         <!-- CATEGORIES -->
+          <section class="section categories-section">
+            <div class="container">
+
+                <div class="section-header">
+                    <div class="section-title-group">
+                        <span class="section-tag">🗂️ Explore</span>
+                        <h2 class="section-title">Game Categories</h2>
+                    </div>
+                </div>
+
+                <div class="categories-grid">
+                    <a href="browse.html" class="category-card" style="--cat-color: #e94560;">
+                        <div class="cat-icon">⚔️</div>
+                        <h3>Action</h3>
+                        <span class="cat-count">3,240 games</span>
+                        <div class="cat-arrow">→</div>
+                    </a>
+                    <a href="browse.html" class="category-card" style="--cat-color: #667eea;">
+                        <div class="cat-icon">🧩</div>
+                        <h3>Puzzle</h3>
+                        <span class="cat-count">1,890 games</span>
+                        <div class="cat-arrow">→</div>
+                    </a>
+                    <a href="browse.html" class="category-card" style="--cat-color: #43e97b;">
+                        <div class="cat-icon">🌍</div>
+                        <h3>Open World</h3>
+                        <span class="cat-count">2,150 games</span>
+                        <div class="cat-arrow">→</div>
+                    </a>
+                    <a href="browse.html" class="category-card" style="--cat-color: #f093fb;">
+                        <div class="cat-icon">🏎️</div>
+                        <h3>Racing</h3>
+                        <span class="cat-count">980 games</span>
+                        <div class="cat-arrow">→</div>
+                    </a>
+                    <a href="browse.html" class="category-card" style="--cat-color: #4facfe;">
+                        <div class="cat-icon">🎯</div>
+                        <h3>Shooter</h3>
+                        <span class="cat-count">2,780 games</span>
+                        <div class="cat-arrow">→</div>
+                    </a>
+                    <a href="browse.html" class="category-card" style="--cat-color: #ffa62e;">
+                        <div class="cat-icon">🏗️</div>
+                        <h3>Simulation</h3>
+                        <span class="cat-count">1,450 games</span>
+                        <div class="cat-arrow">→</div>
+                    </a>
+                </div>
+
+            </div>
+          </section>
+
+          <!-- UPCOMING RELEASES -->
+           <section class="section upcoming-section">
+            <div class="container">
+
+                <div class="section-header">
+                    <div class="section-title-group">
+                        <span class="section-tag">📅 Coming Soon</span>
+                        <h2 class="section-title">Upcoming Releases</h2>
+                    </div>
+                </div>
+
+                <div class="timeline">
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker">
+                            <span class="timeline-dot"></span>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">
+                                <span class="date-month">JAN</span>
+                                <span class="date-day">15</span>
+                            </div>
+                            <div class="timeline-card">
+                                <div class="timeline-game-icon" style="background: linear-gradient(135deg, #e94560, #c23616)">🗡️</div>
+                                <div class="timeline-info">
+                                    <h3>Shadow Kingdoms</h3>
+                                    <p>Dark fantasy action RPG with souls-like combat</p>
+                                    <div class="timeline-meta">
+                                        <span class="tag">Action RPG</span>
+                                        <span class="tag">Dark Fantasy</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker">
+                            <span class="timeline-dot"></span>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">
+                                <span class="date-month">FEB</span>
+                                <span class="date-day">28</span>
+                            </div>
+                            <div class="timeline-card">
+                                <div class="timeline-game-icon" style="background: linear-gradient(135deg, #4facfe, #00f2fe);">🚀</div>
+                                <div class="timeline-info">
+                                    <h3>Nebula Command</h3>
+                                    <p>Real-time space stratey across galaxies</p>
+                                    <div class="timeline-meta">
+                                        <span class="tag">Strategy</span>
+                                        <span class="tag">Sci-Fi</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                     <div class="timeline-item">
+                        <div class="timeline-marker">
+                            <span class="timeline-dot"></span>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">
+                                <span class="date-month">MAR</span>
+                                <span class="date-day">12</span>
+                            </div>
+                            <div class="timeline-card">
+                                <div class="timeline-game-icon" style="background: linear-gradient(135deg, #43e97b, #38f9d7)">🌿</div>
+                                <div class="timeline-info">
+                                    <h3>Verdant Valley</h3>
+                                    <p>Cozy farming simulator with magical creatures</p>
+                                    <div class="timeline-meta">
+                                        <span class="tag">Simulation</span>
+                                        <span class="tag">Cozy</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+           </section>
+
+           <!-- NEWSLETTER -->
+            <section class="section newsletter-section">
+                <div class="container">
+
+                    <div class="newsletter-card">
+
+                        <div class="newsletter-bg-effects">
+                            <div class="nl-shape nl-shape-1"></div>
+                            <div class="nl-shape nl-shape-2"></div>
+                        </div>
+
+                        <div class="newsletter-content">
+                            <span class="newsletter-emoji">📬</span>
+                            <h2>Stay in the Loop</h2>
+                            <p>Get weekly updates on new released, deals, and community events.</p>
+                            <form class="newsletter-form">
+                                <input type="email" placeholder="Enter your email..." class="newsletter-input" required>
+                                <button type="submit" class="btn btn-primary newsletter-btn">Subscribe</button>
+                            </form>
+                            <span class="newsletter-note">No spam. Unsubscribe anytime. 🎮</span>
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- FOOTER -->
+             <footer>
+                <div class="container">
+
+                    <div class="footer-grid">
+
+                        <div class="footer-brand">
+                            <a href="index.httml" class="nav-logo">
+                                <span class="logo-icon">🎮</span>
+                                <span class="logo-text">Game<span class="logo-accent">Vault</span></span>
+                            </a>
+                            <p>Your ultimate gaming companion. Discover, track, and connect.</p>
+                            <div class="footer-socials">
+                                <a href="#" class="social-link">🐦</a>
+                                <a href="#" class="social-link">💬</a>
+                                <a href="#" class="social-link">📺</a>
+                                <a href="#" class="social-link">📷</a>
+                            </div>
+                        </div>
+
+                        <div class="footer-links-group">
+                            <h4>Platform</h4>
+                            <ul>
+                                <li><a href="browse.html">Browse Games</a></li>
+                                <li><a href="community.html">Community</a></li>
+                                <li><a href="#">Leaderboards</a></li>
+                                <li><a href="#">News</a></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="footer-links-group">
+                            <h4>Support</h4>
+                            <ul>
+                                <li><a href="#">Help Center</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="#">Bug Report</a></li>
+                                <li><a href="#">Feedback</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="footer-links-group">
+                            <h4>Legal</h4>
+                            <ul>
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Terms of Service</a></li>
+                                <li><a href="#">Cookkie Policy</a></li>
+                                <li><a href="#">DMCA</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <div class="footer-bottom">
+                        <p>&copy; 2026 GameVault. All rights reserved. Built with ❤️ and CSS</p>
+                        <p class="footer-credit">A portofolio project by <a href="https://www.linkedin.com/in/mackisios/">Mackisios</a></p>
+                    </div>
+
+                </div>
+             </footer>
+
+</body>
+</html>
