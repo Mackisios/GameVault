@@ -39,13 +39,20 @@ A stunning, fully responsive gaming dashboard built with **pure HTML & CSS** —
 | Google Fonts | Typography (Inter + Orbitron) |
 
 ## 📁 Project Structure
-- GameVault/
-- ├── index.html # Main dashboard page
-- ├── browse.html # Game browsing with filters
-- ├── community.html # Social feed with sidebar
-- ├── css/
-- │ └── styles.css # Complete stylesheet (~2000 lines)
-- └── README.md # This file
+
+```
+GameVault/
+├── css/
+│   └── styles.css
+├── screenshots/
+│   ├── dashboard.png
+│   ├── browse.png      
+│   └── community.png
+├── index.html  
+├── browse.html  
+├── community.html 
+└── README.md
+```
 
 ## 🚀 Getting Started
 
